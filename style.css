@@ -1,0 +1,101 @@
+body {
+  background: black;
+  color: white;
+}
+.one {
+  width: 40%;
+  float: left;
+  height: 100px;
+
+  margin: 10px;
+}
+.two {
+  width: 50%;
+  float: left;
+  height: 100px;
+
+  margin: 10px;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 7%;
+  line-height: 1.5;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50%;
+  position: relative;
+  left: 15%;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+}
+h2 span {
+  color: rgb(243, 243, 19);
+}
+img {
+  width: 60%;
+  padding-left: 30%;
+  padding-top: 10%;
+  animation: animate 2s linear forwards;
+}
+.btn-group {
+  position: absolute;
+
+  left: 20%;
+  top: 20%;
+}
+button img {
+  width: 12%;
+  left: -58%;
+  position: relative;
+  top: -10px;
+}
+.btn {
+  color: white;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.btn-masterful {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  font-size: 24px;
+}
+.btn-masterful .btn-txt {
+  padding-left: 0.5rem;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+p {
+  opacity: 0.3;
+  position: relative;
+  top: 570px;
+  right: 50%;
+}
